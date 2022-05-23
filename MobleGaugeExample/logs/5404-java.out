@@ -1,0 +1,25 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 520milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 520"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57518"}
+{"logLevel":"info","message":"Listening on port:57518"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BaseStep.textControl' and 'BaseStep.textControl'"}
+{"logLevel":"debug","message":"Found {} xpath li değeri bul ve {} değerni içeriyormu dıye kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickByxpath' and 'BaseStep.clickByxpath'"}
+{"logLevel":"debug","message":"Found  {} xpath li elementi bul ve tıkla  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.waitForsecond' and 'BaseStep.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickByid' and 'BaseStep.clickByid'"}
+{"logLevel":"debug","message":"Found  İd li {}  elementi bul ve tıkla  in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t {} xpath li elementi bul ve tıkla  : public void clickByxpath(String key)"}
+{"logLevel":"debug","message":"\t{} xpath li değeri bul ve {} değerni içeriyormu dıye kontrol et : public void textControl(String key, String keyword)"}
+{"logLevel":"debug","message":"\t İd li {}  elementi bul ve tıkla  : public void clickByid(String key)"}
+{"logLevel":"debug","message":"\t{} kadar bekle : public void waitForsecond(int second) throws InterruptedException"}
